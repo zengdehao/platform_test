@@ -8,7 +8,6 @@ from base.runmethod import RunMethod
 from data.getdata import GetData
 from data.dependent_data import DependentData
 from common.send_email import SendEmail
-import operator
 import unittest
 
 class RunTest(unittest.TestCase):
