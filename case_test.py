@@ -15,7 +15,6 @@ if __name__ == '__main__':
                             description='Implementation Example with: ')
     runner.run(discover)
     fp.close()
-    print("\nsend success")
 
 
 

@@ -24,7 +24,7 @@ class RunTest(unittest.TestCase):
         cls.send = SendEmail(cls.pass_count,cls.fail_count)
         cls.send.send_email()
 
-# 执行用例的方法体
+    # 定义函数，最终生成的测试用例的执行方法
     def run_test(self,row):
         is_run = self.data.get_is_run(row)
         if is_run:
