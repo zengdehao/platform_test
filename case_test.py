@@ -11,7 +11,7 @@ if __name__ == '__main__':
     file_name =os.path.dirname(os.path.abspath(__file__)) + '\\report\\' + now_time + '_result.html'
     fp = open(file_name,'wb')
     runner = HTMLTestRunner(stream=fp,
-                            title='Tvyuetravel Platform TestResult',
+                            title='Tvyuetravel TestResult',
                             description='Implementation Example with: ')
     runner.run(discover)
     fp.close()
